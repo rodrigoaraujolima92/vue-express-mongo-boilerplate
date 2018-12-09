@@ -4,7 +4,7 @@
 
 This is a boilerplate project with VueJS (Vue Router, Vuex) + ExpressJS + MongoDB (MongoDB will be soon integrated).
 
-*This is just my personal boilerplate, it may or may not be a good fit for your project(s).*
+*This is my personal boilerplate and it is still in development, so feel free to make some pull requests*
 
 ## Features
 
