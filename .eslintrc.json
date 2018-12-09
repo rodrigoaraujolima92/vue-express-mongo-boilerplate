@@ -1,0 +1,13 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:vue/recommended",
+    "prettier"
+  ],
+  "rules": {
+    "no-debugger": 0,
+    "no-console": 0,
+    "vue/max-attributes-per-line": "off",
+    "vue/html-indent": 4
+  }
+}

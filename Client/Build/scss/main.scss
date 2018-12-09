@@ -1,0 +1,13 @@
+@import "presets/presets";
+@import "variables/variables";
+@import "mixins/mixins";
+html{
+    font-size: 62.5%;
+} 
+body{
+    font-family: $typo__ff--primary;
+    font-weight: $typo__fw--regular;
+    color: $clr__gray;
+    margin: 0; 
+    @include scrollbar($clr__gray, 1rem)
+}
