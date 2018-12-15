@@ -1,8 +1,8 @@
 # Vue, Express, MongoDB boilerplate
 
-<img src="http://vuejs.org/images/logo.png" height="50"> <img src="https://i.cloudup.com/zfY6lL7eFa-3000x3000.png" width="200"> <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/45/MongoDB-Logo.svg/527px-MongoDB-Logo.svg.png" height="50"> <img src="https://worldvectorlogo.com/logos/nodejs-icon.svg" height="50">
+This is a boilerplate project with VueJS (Vue Router, Vuex) + ExpressJS + MongoDB (Mongoose).
 
-This is a boilerplate project with VueJS (Vue Router, Vuex) + ExpressJS + MongoDB.
+<img src="http://vuejs.org/images/logo.png" height="50"> <img src="https://i.cloudup.com/zfY6lL7eFa-3000x3000.png" width="200"> <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/45/MongoDB-Logo.svg/527px-MongoDB-Logo.svg.png" height="50"> <img src="https://worldvectorlogo.com/logos/nodejs-icon.svg" height="50">
 
 *This is my personal boilerplate and it is still in development, so feel free to make some pull requests and give some feedback about this boilerplate*
 
