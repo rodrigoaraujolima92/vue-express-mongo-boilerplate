@@ -1,5 +1,5 @@
 {
-  "name": "Boilerplate",
+  "name": "vue-express-mongo-boilerplate",
   "version": "0.0.0",
   "main": "Server/app.js",
   "private": false,
