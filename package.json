@@ -2,7 +2,7 @@
   "name": "Boilerplate",
   "version": "0.0.0",
   "main": "Server/app.js",
-  "private": true,
+  "private": false,
   "scripts": {
     "// -- Server tasks": "echo \"tasks for the backend environment\"",
     "dev": "nodemon --inspect Server/app.js --exec babel-node --presets babel-preset-env",
