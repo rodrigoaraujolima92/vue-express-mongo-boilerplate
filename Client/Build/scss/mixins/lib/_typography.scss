@@ -1,0 +1,41 @@
+// headline
+@mixin typo--headline($clr) {
+  color: $clr;
+  font-size: $typo__fs--headline;
+  font-weight: $typo__fw--regular;
+  // tablet
+  @media #{$mq__tablet} {
+    font-size: $typo__fs--headline-tablet;
+  }
+  // phablet
+  @media #{$mq__phablet} {
+    font-size: $typo__fs--headline-phablet;
+  }
+  // phone
+  @media #{$mq__phone} {
+    font-size: $typo__fs--headline-phone;
+  }
+}
+
+// subheadline
+@mixin typo--subheadline($clr) {
+  color: $clr;
+  font-size: $typo__fs--subheadline;
+  font-weight: $typo__fw--bold;
+  // phablet
+  @media #{$mq__phablet} {
+    font-size: $typo__fs--subheadline-phablet;
+  }
+}
+
+// paragraph
+@mixin typo--paragraph($clr,$clr__accent) {
+  @include typo--highlighting($clr__accent);
+  @include typo--inlink($clr__accent);
+  color: $clr;
+  font-size: $typo__fs--text;
+  line-height: 1.6;
+  * {
+    font-size: 1.0em;
+  }
+}
