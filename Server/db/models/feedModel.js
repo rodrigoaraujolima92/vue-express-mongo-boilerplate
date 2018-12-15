@@ -24,9 +24,7 @@ Feeds.get = (callback, params) => {
     options.limit = parseInt(params.limit);
   }
   options.page = parseInt(params.page) || 1;
-  debugger;
   Feeds.paginate({}, options).then(result => {
-    debugger;
     callback(result);
   });
   // Feeds.find(callback)
@@ -36,9 +34,5 @@ Feeds.get = (callback, params) => {
   //   .skip(params.page ? parseInt(params.page) : 1);
 };
 
-// Handle create Feeds actions
-Feeds.new = function(req, res) {
-  debugger;
-};
 // Export Feeds model
 export { Feeds };
