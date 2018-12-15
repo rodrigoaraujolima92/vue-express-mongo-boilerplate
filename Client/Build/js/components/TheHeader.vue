@@ -60,7 +60,8 @@ export default {
     height: .2rem;
     width: 2rem;
     background: $clr__gray;
-    margin: .4rem 0;
+    margin: .2rem 0;
+    padding: .1rem 0;
   }
 }
 </style>

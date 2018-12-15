@@ -1,6 +1,7 @@
 import Router from 'vue-router';
 import Vue from 'vue';
 import Home from '@/views/Home';
+import Feeds from '@/views/Feeds';
 
 Vue.use(Router);
 
@@ -20,7 +21,7 @@ const routes = [
   { 
     path: '/feeds',
     name: 'Feeds',
-    component: Home
+    component: Feeds
   },
   { 
     path: '/sources',
